@@ -2,81 +2,81 @@
     {
         "id": "burger-1",
         "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Hamburger",
-        "description": "From aged beef, with homemade ketchup, romaine lettuce and tomato.",
+        "name": "Гамбургер",
+        "description": "Из выдержанной говядины, с домашним кетчупом, салатом ромэн и помидорами.",
         "variants": [
             {
                 "id": "s",
-                "name": "Small",
-                "cost": "1199",
-                "weight": "200g"
+                "name": "Маленький",
+                "cost": "750",
+                "weight": "200г"
 
             },
             {
                 "id": "l",
-                "name": "Large",
+                "name": "Большой",
                 "cost": "1399",
-                "weight": "280g"
+                "weight": "280г"
             }
         ]
     },
     {
         "id": "burger-2",
         "image": "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Jalapeno & Habanero burger",
-        "description": "From aged beef, with slices of jalapeño and habanero peppers, Cheddar cheese, homemade guacamole, arugula, romaine lettuce, spicy tomato salsa and grilled corn.",
+        "name": "Бургер с халапеньё",
+        "description": "Из выдержанной говядины, с кусочками халапеньо и перца хабанеро, сыром Чеддер, домашним гуакамоле, рукколой, салатом ромэн, острой томатной сальсой и кукурузой на гриле.",
         "variants": [
             {
                 "id": "s",
-                "name": "Small",
-                "cost": "1249",
-                "weight": "210g"
+                "name": "Маленький",
+                "cost": "890",
+                "weight": "210г"
             },
             {
                 "id": "l",
-                "name": "Large",
+                "name": "Большой",
                 "cost": "1560",
-                "weight": "320g"
+                "weight": "320г"
             }
         ]
     },
     {
         "id": "burger-3",
         "image": "https://images.unsplash.com/photo-1610970878459-a0e464d7592b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Pulled pork smoked knee burger",
-        "description": "Pulled smoked pork knuckle braised with black beer and thyme, homemade BBQ sauce, spicy cabbage salad, romaine lettuce and Cheddar cheese.",
+        "name": "Копчёный бургер с тушеной свининой",
+        "description": "Тушеная копченая свиная рулька, тушеная с черным пивом и тимьяном, домашним соусом барбекю, салатом из острой капусты, салатом ромэн и сыром Чеддер.",
         "variants": [
             {
                 "id": "s",
-                "name": "Small",
+                "name": "Маленький",
                 "cost": "1299",
-                "weight": "254g"
+                "weight": "254г"
             },
             {
                 "id": "l",
-                "name": "Large",
+                "name": "Большой",
                 "cost": "1470",
-                "weight": "370g"
+                "weight": "370г"
             }
         ]
     },
     {
         "id": "burger-4",
         "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Chiken burger",
-        "description": "Grilled chicken breast with crispy bacon, Cheddar cheese, arugula, beetroot leaves, pickles and spicy homemade mayonnaise.",
+        "name": "Куриный бургер",
+        "description": "Куриная грудка гриль с хрустящим беконом, сыром Чеддер, рукколой, листьями свеклы, солеными огурцами и острым домашним майонезом.",
         "variants": [
             {
                 "id": "s",
-                "name": "Small",
+                "name": "Маленький",
                 "cost": "1390",
-                "weight": "320g"
+                "weight": "320г"
             },
             {
                 "id": "l",
-                "name": "Large",
+                "name": "Большой",
                 "cost": "1580",
-                "weight": "500g"
+                "weight": "500г"
             }
         ]
     }
