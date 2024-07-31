@@ -51,7 +51,7 @@ def handle_successful_payment(message):
         }
     """
     user_name = message.successful_payment.order_info.name
-    text = f'Thank you for your order, *{user_name}*! This is not a real cafe, so your card was not charged.\n\nHave a nice day 🙂'
+    text = f'Спасибо за заказ, *{user_name}*! Это тестовая оплата и с вашей карты ничего не спишется.\n\nХорошего вечера 🙂'
     bot.send_message(
         chat_id=message.chat.id,
         text=text,
@@ -77,7 +77,7 @@ def handle_start_command(message):
     """
     send_actionable_message(
         chat_id=message.chat.id,
-        text='*Welcome to Laurel Cafe!* 🌿\n\nIt is time to order something delicious 😋 Tap the button below to get started.'
+        text='*Добро пожаловать в кафе Виноград!* 🌿\n\nВремя заказать что то вкусное 😋 Нажмите на кнопку ниже чтобы начать.'
     )
 
 @bot.message_handler()
@@ -88,7 +88,7 @@ def handle_all_messages(message):
     """
     send_actionable_message(
         chat_id=message.chat.id,
-        text="To be honest, I don't know how to reply to messages. But I can offer you to familiarize yourself with our menu. I am sure you will find something to your liking! 😉"
+        text="Честно говоря, я не знаю, как отвечать на сообщения. Но могу предложить Вам ознакомиться с нашим меню. Я уверен, что вы найдете что-то себе по душе! 😉"
     )
 
 def send_actionable_message(chat_id, text):
@@ -96,7 +96,7 @@ def send_actionable_message(chat_id, text):
       Inline button will open our Mini App on click.
     """
     markup = quick_markup({
-        'Explore Menu': { 
+        'Изучить меню': { 
             'web_app': WebAppInfo(APP_URL)
         },
     }, row_width=1)
@@ -127,11 +127,11 @@ def create_invoice_link(prices) -> str:
       most of the fields are hardcode.
     """
     return bot.create_invoice_link(
-        title='Order #1',
-        description='Great choice! Last steps and we will get to cooking ;)',
+        title='Заказ #1',
+        description='Хороший выбор! Последние шаги и мы приступим к приготовлению ;)',
         payload='orderID',
         provider_token=PAYMENT_PROVIDER_TOKEN,
-        currency='USD',
+        currency='RUB',
         prices=prices,
         need_name=True,
         need_phone_number=True,
