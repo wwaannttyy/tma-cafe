@@ -2,60 +2,60 @@
     {
         "id": "pasta-1",
         "image": "https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Spaghetti alla Carbonara",
-        "description": "Spaghetti in a creamy sauce made with egg, prosciutto, sauteed onions, Parmesan cheese and black pepper.",
+        "name": "Карбонара",
+        "description": "Спагетти в сливочном соусе с яйцом, прошутто, жареным луком, сыром Пармезан и черным перцем.",
         "variants": [
             {
                 "id": "n",
-                "name": "Normal",
+                "name": "Стандартное",
                 "cost": "1109",
-                "weight": "300g"
+                "weight": "300г"
             },
             {
                 "id": "g",
-                "name": "Gluten Free",
+                "name": "Без глютена",
                 "cost": "1290",
-                "weight": "300g"
+                "weight": "300г"
             }
         ]
     },
     {
         "id": "pasta-2",
         "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Penne Terra E Mare",
-        "description": "Penne sautéed with clams, mussels, scallops, shrimp, mushrooms, peas and diced tomatoes.",
+        "name": "Пенне Терра Э Маре",
+        "description": "Пенне, обжаренный с моллюсками, мидиями, гребешками, креветками, грибами, горошком и нарезанными кубиками помидорами.",
         "variants": [
             {
                 "id": "n",
-                "name": "Normal",
+                "name": "Стандартное",
                 "cost": "1450",
-                "weight": "310g"
+                "weight": "310г"
             },
             {
                 "id": "g",
-                "name": "Gluten Free",
+                "name": "Без глютена",
                 "cost": "1600",
-                "weight": "310g"
+                "weight": "310г"
             }
         ]
     },
     {
         "id": "pasta-3",
         "image": "https://images.unsplash.com/photo-1579684947550-22e945225d9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
-        "name": "Spaghetti Alla Puttanesca",
-        "description": "Spaghetti in a diced tomato, anchovies, capers, Kalamata olives and red pepper sauce.",
+        "name": "Спагетти",
+        "description": "Спагетти с нарезанными кубиками помидорами, анчоусами, каперсами, оливками Каламата и соусом из красного перца.",
         "variants": [
             {
                 "id": "n",
-                "name": "Normal",
+                "name": "Стандартное",
                 "cost": "1200",
-                "weight": "330g"
+                "weight": "330г"
             },
             {
                 "id": "g",
-                "name": "Gluten Free",
+                "name": "Без глютена",
                 "cost": "1350",
-                "weight": "330g"
+                "weight": "330г"
             }
         ]
     },
@@ -63,19 +63,19 @@
         "id": "pasta-4",
         "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=center&w=1920&q=80",
         "name": "Linguime ai frutti di Mare",
-        "description": "Linguine, tossed with freshly sautéed seafood in a white wine or marinara sauce.",
+        "description": "Лингвини со свежеобжаренными морепродуктами в соусе из белого вина или маринара.",
         "variants": [
             {
                 "id": "n",
-                "name": "Normal",
+                "name": "Стандартное",
                 "cost": "1580",
-                "weight": "290g"
+                "weight": "290г"
             },
             {
                 "id": "g",
-                "name": "Gluten Free",
+                "name": "Без глютена",
                 "cost": "1700",
-                "weight": "290g"
+                "weight": "290г"
             }
         ]
     }
